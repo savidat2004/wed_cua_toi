@@ -2,4 +2,270 @@
    target="_blank"
    class="btn-apply">
    ĐĂNG KÝ ỨNG TUYỂN NGAY
+   
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VTC1 - Công ty tuyển dụng</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f7fb;
+    color: #333;
+}
+
+header {
+    background: #073b75;
+    color: white;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+.banner {
+    background: linear-gradient(120deg, #07519b, #00a6c7);
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner p {
+    font-size: 19px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background: #ffcc00;
+    color: #073b75;
+    padding: 13px 28px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 55px 8%;
+}
+
+.section-title {
+    text-align: center;
+    color: #073b75;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.about {
+    line-height: 1.8;
+    text-align: center;
+    max-width: 900px;
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 22px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 3px 12px #00000012;
+}
+
+.card h3 {
+    color: #07519b;
+    margin-bottom: 12px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.jobs {
+    background: #eaf2fa;
+}
+
+.job {
+    background: white;
+    padding: 22px;
+    margin-bottom: 18px;
+    border-radius: 8px;
+    border-left: 5px solid #0786c9;
+}
+
+.job h3 {
+    color: #07519b;
+    margin-bottom: 10px;
+}
+
+.contact {
+    background: #073b75;
+    color: white;
+    text-align: center;
+    line-height: 2;
+}
+
+.contact h2 {
+    color: #ffcc00;
+    margin-bottom: 20px;
+}
+
+footer {
+    background: #05284f;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
+
+@media(max-width:600px) {
+    header {
+        justify-content: center;
+        gap: 15px;
+    }
+    .banner h1 {
+        font-size: 28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">VTC1</div>
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#services">Dịch vụ</a>
+        <a href="#jobs">Tuyển dụng</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+</header>
+
+<div class="banner" id="home">
+    <h1>VTC1 - KẾT NỐI VIỆC LÀM</h1>
+    <p>Đồng hành cùng người lao động - Kết nối cơ hội nghề nghiệp</p>
+    <a href="#jobs" class="btn">XEM VIỆC LÀM NGAY</a>
+</div>
+
+<section id="about">
+    <h2 class="section-title">GIỚI THIỆU VTC1</h2>
+    <div class="about">
+        <p>
+            VTC1 hướng đến việc kết nối người lao động với các doanh nghiệp,
+            nhà máy và khu công nghiệp có nhu cầu tuyển dụng.
+            Chúng tôi mong muốn hỗ trợ ứng viên tìm kiếm công việc phù hợp,
+            cung cấp thông tin tuyển dụng rõ ràng và tạo cầu nối giữa
+            doanh nghiệp với nguồn nhân lực.
+        </p>
+        <p>
+            Với định hướng chuyên nghiệp, tận tâm và nhanh chóng,
+            VTC1 hướng đến việc mang lại những cơ hội việc làm ổn định
+            cho người lao động.
+        </p>
+    </div>
+</section>
+
+<section id="services">
+    <h2 class="section-title">DỊCH VỤ CỦA CHÚNG TÔI</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>👥 Tuyển dụng lao động</h3>
+            <p>Kết nối ứng viên với các doanh nghiệp và nhà máy tại KCN.</p>
+        </div>
+        <div class="card">
+            <h3>📋 Tư vấn việc làm</h3>
+            <p>Hỗ trợ ứng viên tìm hiểu công việc và yêu cầu tuyển dụng.</p>
+        </div>
+        <div class="card">
+            <h3>🏭 Kết nối doanh nghiệp</h3>
+            <p>Hỗ trợ doanh nghiệp tiếp cận nguồn lao động phù hợp.</p>
+        </div>
+        <div class="card">
+            <h3>🤝 Hỗ trợ ứng viên</h3>
+            <p>Hướng dẫn chuẩn bị hồ sơ và quy trình ứng tuyển.</p>
+        </div>
+    </div>
+</section>
+
+<section class="jobs" id="jobs">
+    <h2 class="section-title">THÔNG TIN TUYỂN DỤNG</h2>
+
+    <div class="job">
+        <h3>Nhân viên sản xuất</h3>
+        <p>Địa điểm: Các khu công nghiệp</p>
+        <p>Số lượng: Theo nhu cầu doanh nghiệp</p>
+        <p>Yêu cầu: Có sức khỏe tốt, chăm chỉ, trách nhiệm.</p>
+    </div>
+
+    <div class="job">
+        <h3>Nhân viên kho</h3>
+        <p>Địa điểm: Nhà máy, khu công nghiệp</p>
+        <p>Yêu cầu: Cẩn thận, có tinh thần trách nhiệm.</p>
+    </div>
+
+    <div class="job">
+        <h3>Nhân viên kiểm tra chất lượng (QC)</h3>
+        <p>Địa điểm: Nhà máy sản xuất</p>
+        <p>Yêu cầu: Tỉ mỉ, có khả năng quan sát và kiểm tra sản phẩm.</p>
+    </div>
+
+    <div class="job">
+        <h3>Nhân viên tuyển dụng</h3>
+        <p>Yêu cầu: Giao tiếp tốt, có kỹ năng tư vấn và hỗ trợ ứng viên.</p>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>LIÊN HỆ VỚI VTC1</h2>
+    <p>Hotline: [Bổ sung số điện thoại]</p>
+    <p>Email: [Bổ sung email công ty]</p>
+    <p>Địa chỉ: [Bổ sung địa chỉ công ty]</p>
+    <p>Facebook/Zalo: [Bổ sung liên kết chính thức]</p>
+</section>
+
+<footer>
+    <p>© 2026 VTC1 - Kết nối việc làm, đồng hành cùng người lao động.</p>
+</footer>
+
+</body>
+</html>
+
 </a>
